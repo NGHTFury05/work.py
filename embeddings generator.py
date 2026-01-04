@@ -5,7 +5,7 @@ import torch
 import faiss
 
 # Step 1: Connect to MongoDB and load data
-client = MongoClient("mongodb+srv://harissh:Xboxones07@cluster0.dm6mvwq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+client = MongoClient("yoour mongo client")
 db = client["music"]
 collection = db["top50"]
 
