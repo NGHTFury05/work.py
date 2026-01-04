@@ -4,7 +4,7 @@ from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QPushButton, QVBoxLay
 from sentence_transformers import SentenceTransformer
 from pymongo import MongoClient
 
-client = MongoClient('mongodb+srv://harissh:Xboxones07@cluster0.dm6mvwq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+client = MongoClient('Youre Mongo client')
 db = client['music'] 
 collection = db['top50'] 
 model = SentenceTransformer('all-MiniLM-L6-v2')
